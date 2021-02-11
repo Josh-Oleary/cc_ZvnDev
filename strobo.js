@@ -12,7 +12,7 @@ const findStrobo = function(n) {
             //if m == 1, there are only 3 valid integers
             return ['0', '1', '8'];
         }
-        //recursivley calling function to to get result of length - 2, we do this because we must add numbers in pairs to keep the resulting integer strobomattic
+        //recursivley calling function to to get result of length - 2, we do this because we must add numbers in pairs to keep the resulting integer strobogramattic
         var list = recur(m-2);
         //creating our result array where we will push our valid integers 
         var newList = [];
