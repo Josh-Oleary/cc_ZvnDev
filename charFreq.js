@@ -5,7 +5,7 @@ var charFreq = string => {
     var obj = {};
 //we iterate through arr, creating our object with the results
     for(let i = 0; i < arr.length; i++) {
-//we check to see if the object contains a key that matches arr[i], if not we creat a new key with value of 1, if it does, we add 1 to current value
+//we check to see if the object contains a key that matches arr[i], if not we create a new key with value of 1, if it does, we add 1 to current value
         var key = arr[i];
         if(!obj[key]) {
             obj[key] = 1;
